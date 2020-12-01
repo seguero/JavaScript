@@ -1,0 +1,35 @@
+html {
+    background-image: url(homeb.jpg);
+}
+
+body {
+    color:white;
+    display: grid;
+    grid-template-columns: 20% 75% 5%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav header footer"
+                         "nav main footer"
+                         "nav main aside"
+                         "nav main aside"
+}
+
+
+header {
+    grid-area:header
+}
+
+main {
+    grid-area: main;
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
