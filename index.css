@@ -1,11 +1,12 @@
 html {
     background-image: url(homeb.jpg);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    color:white;
+    color:#C8B492;
     display: grid;
-    grid-template-columns: 20% 75% 5%;
+    grid-template-columns: 10% 85% 5%;
     grid-template-rows: auto;
     grid-template-areas: "nav header footer"
                          "nav main footer"
@@ -15,15 +16,35 @@ body {
 
 
 header {
+    margin-left: 35px;
     grid-area:header
 }
 
 main {
+    margin-left: 35px;
     grid-area: main;
+    
+}
+
+main p {
+    font-size: 25pt;
 }
 
 nav {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     grid-area: nav;
+    background-color: #E3D3B1;
+    
+}
+
+nav li {
+    font-size: 22pt;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
 }
 
 aside {
