@@ -50,26 +50,39 @@ main {
     margin-top: 20px;
 }
 
-main > div {
-    float: right;
-    width: 50%;
-}
-
 main h1 {
     text-align: center;
     color:black;
     font-size: 18pt;
 }
 
+
 main p {
     text-align: center;
     color: black;
+    font-size: 13pt;
 }
 
-main form {
-    text-align: center;
+.container {
+    margin-left: 5%;
     float: left;
     width: 50%;
+}
+
+.container input {
+    width: 50%;
+    padding: 3px;
+    display: block;
+}
+
+.container2 {
+    width: 45%;
+    float: right;
+}
+
+textarea {
+    width: 50%;
+    height: 350px;
 }
 
 nav {
