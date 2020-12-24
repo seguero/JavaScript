@@ -32,10 +32,6 @@ header a {
     font-size: 18pt;
 }
 
-main h2 {
-    text-align: center;
-}
-
 main {
     grid-area: main;
     border-bottom-left-radius: 15px;
@@ -46,7 +42,6 @@ main {
     margin-left: 35px;
     margin-right: 30px;
     margin-top: 20px;
-    color: black;
 }
 
 main h1 {
@@ -58,19 +53,7 @@ main p {
     margin-left: 5px;
     margin-right: 5px;
     color: black;
-    font-size: 16pt;
-}
-
-main h2 {
-    text-align: left;
-}
-
-main h3 {
-    font-size: 16pt;
-}
-
-main ul {
-    list-style-type: square;
+    text-align: center;
     font-size: 16pt;
 }
 
