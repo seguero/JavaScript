@@ -21,11 +21,9 @@ header {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #BEBEBE;
+    background-color:rgba(190, 190, 190, 0.5);
     margin-left: 35px;
     margin-right: 30px;
-    opacity: 50%;
-    font-size: 28pt;
 }
 
 header h1 {
@@ -46,6 +44,12 @@ main {
     margin-top: 20px;
 }
 
+main h1 {
+    text-align: center;
+    color:black;
+    font-size: 18pt;
+}
+
 main img {
     padding: 20px;
     margin-left: 33px;
@@ -59,8 +63,7 @@ nav {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:#BEBEBE;
-    opacity: 50%;
+    background-color:rgba(190, 190, 190, 0.5);
 }
 
 nav a {
@@ -80,8 +83,7 @@ aside {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #BEBEBE;
-    opacity: 50%;
+    background-color:rgba(190, 190, 190, 0.5);
 }
 
 aside p {
@@ -97,8 +99,8 @@ footer {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color: #BEBEBE;
-    opacity: 50%;
+    background-color:rgba(190, 190, 190, 0.5);
+    font-size: 14pt;
 }
 
 footer a {
