@@ -6,7 +6,7 @@ html {
 body {
     color:#708090;
     display: grid;
-    grid-template-columns: 10% 85% 5%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: auto;
     grid-template-areas: "nav header aside"
                          "nav main aside"
@@ -16,7 +16,7 @@ body {
 
 
 header {
-    grid-area:header;
+    grid-area: header;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;

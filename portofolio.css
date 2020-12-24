@@ -1,0 +1,109 @@
+html {
+    background-image: url(homeb.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    color:#708090;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav header aside"
+                         "nav main aside"
+                         "nav main aside"
+                         "footer footer footer"
+}
+
+
+header {
+    grid-area: header;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #BEBEBE;
+    margin-left: 35px;
+    margin-right: 30px;
+    opacity: 50%;
+    font-size: 28pt;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    font-size: 18pt;
+}
+
+main {
+    grid-area: main;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color:rgba(190, 190, 190, 0.5);
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+main img {
+    padding: 20px;
+    margin-left: 33px;
+    margin-right: 20px;
+}
+
+nav {
+    grid-area: nav;
+    display: block;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color:#BEBEBE;
+    opacity: 50%;
+}
+
+nav a {
+    font-style: normal;
+    color: black;
+    display: block;
+    font-size: 22pt;
+    padding: 11px;
+}
+
+aside {
+    font-size: 10pt;
+    grid-area: aside;
+    color: black;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #BEBEBE;
+    opacity: 50%;
+}
+
+aside p {
+    color: black;
+}
+
+footer {
+    grid-area: footer;
+    color: black;
+    text-align: center;
+    margin-top: 12px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #BEBEBE;
+    opacity: 50%;
+}
+
+footer a {
+    display: inline;
+    color: black;
+    margin-bottom: 20px;
+}
+
