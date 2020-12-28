@@ -3,6 +3,8 @@
     <head>
         <title>Curriculum Vitae</title>
         <link rel="stylesheet" href="cv.css" media="screen and (min-width: 1000px)" />
+        <link rel="stylesheet" href="cvmobile.css" media="screen and (max-width: 1000px)" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
 
     <body>
@@ -11,7 +13,7 @@
         </header>    
         <main>
             <h1>
-                CURRICULUM VITAE
+                CURRICULUM VITAE - not updated
             </h1>
             <h2>Sergiu Popa</h2>
             <h2>20/06/1997, Romania</h2>
@@ -79,44 +81,52 @@ In college, I’ve been following a theoretical pathway, specifically, a humanit
 
             <h3>Reference -Sharnie Barnes - P&C Administrator - sbarnes@primark.co.uk - +44 1832730972 - Primark Distribution Centre</h3>
         </main>
-        <nav class="shownav">
+        <nav id="clicked">
+            <a href="#clicked" class = "shownav">
+                <img src="hamburgericon.png" width="32" height="32">
+                <p>Menu</p>
+            </a>
+            <a href="#"></a>
+            <div class="navoff">
             <a href="index.html">
                 <img src="indexicon.png" width="32" height="32">
-                Home
+                <p>Home</p>
             </a>
             <a href="portofolio.html">
                 <img src ="portofolioicon.png" width="32" height="32">
-                Portofolio
+                <p>Portofolio</p>
             </a>
             <a href="cv.html">
                 <img src ="cvicon.png" width="32" height="32">
-                CV
+                </p>CV</p>
             </a>
             <a href="contact.html">
                 <img src ="contacticon.png" width="32" height="32">
-                Contact
+                </p>Contact</p>
             </a>
             <a href="sitereport.html">
                 <img src ="sitereporticon.png" width="32" height="32">
-                Site report
+                </p>Webite Report</p>
             </a>
-        </nav>
-        <aside>
-        <p>
-            Quick Links
-        </p>
-        </aside>
-        <footer>
-            <p>&copy; Sergiu Popa - Web Technology & Security Student - University of Northamtpon</p>
-            <a href="https://www.facebook.com/SegaBrock/">
-                <img src="fbicon.png" alt="https://www.facebook.com/SegaBrock/" width="32" height="32">
-            </a> 
-            <a href="https://www.instagram.com/sega.sergiu/">
-                <img src="igicon.png" alt="https://www.instagram.com/sega.sergiu/" width="32" height="32">
-            </a>
-            <a href class="showemail">
-                <img src="emailicon.png" alt="brockyy20@gmail.com" width="32" height="32">
-            </a>
-        </footer>
-    </body>
+            </div>
+    </nav>
+    <aside>
+        <p>Social</p>
+        <a href="https://www.facebook.com/SegaBrock/">
+            <img src="fbicon.png" width="32" height="32">
+        </a> 
+        <a href="https://www.instagram.com/sega.sergiu/">
+            <img src="igicon.png" width="32" height="32">
+        </a>
+        <a href class="showemail">
+            <img src="emailicon.png" width="32" height="32">
+        </a>
+        <a href="https://github.com/seguero">
+            <img src="githubicon.png" width="32" height="32">
+        </a>
+    </aside>
+    <footer>
+        <p>2020 &copy; Sergiu Popa - Web Technology & Security Student - University of Northamtpon</p>
+    </footer>
+</body>
 </html>

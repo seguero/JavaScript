@@ -4,9 +4,8 @@ html {
 }
 
 body {
-    color:#708090;
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 5% 90% 5%;
     grid-template-rows: auto;
     grid-template-areas: "nav header aside"
                          "nav main aside"
@@ -14,14 +13,13 @@ body {
                          "footer footer footer"
 }
 
-
 header {
     grid-area: header;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
     margin-left: 35px;
     margin-right: 30px;
 }
@@ -32,13 +30,19 @@ header h1 {
     font-size: 18pt;
 }
 
+header img {
+    padding: 55px;
+    width: 270px;
+    height: 320px;
+}
+
 main {
     grid-area: main;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
     margin-left: 35px;
     margin-right: 30px;
     margin-top: 20px;
@@ -47,21 +51,14 @@ main {
     text-align: center;
 }
 
-header img {
-    padding: 30px;
-    width: 270px;
-    height: 320px;
-}
-
 nav {
-    padding: 15px;
     grid-area: nav;
     display: block;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
 }
 
 nav a {
@@ -69,8 +66,7 @@ nav a {
     color: black;
     display: block;
     font-size: 0pt;
-    padding: 11px;
-    text-align: center;
+    padding: 7px;
 }
 
 nav > a {
@@ -97,12 +93,11 @@ aside {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
 }
 
 aside img {
     display: block;
-    margin-left: 25%;
     padding: 10px;
 }
 
@@ -115,6 +110,6 @@ footer {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
     font-size: 10pt;
 }
