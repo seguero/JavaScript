@@ -4,9 +4,8 @@ html {
 }
 
 body {
-    color:#708090;
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 5% 90% 5%;
     grid-template-rows: auto;
     grid-template-areas: "nav header aside"
                          "nav main aside"
@@ -16,12 +15,13 @@ body {
 
 
 header {
+    height: 615px;
     grid-area: header;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
     margin-left: 35px;
     margin-right: 30px;
 }
@@ -32,31 +32,26 @@ header h1 {
     font-size: 18pt;
 }
 
+header img {
+    padding: 40px;
+}
+
 main {
     grid-area: main;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
     margin-left: 35px;
     margin-right: 30px;
     margin-top: 20px;
-
-}
-
-main h1 {
+    padding: 10px;
     color: black;
     text-align: center;
-    display: block;
-    width: 50%;
-    float: left;
 }
 
 main p {
-    display: block;
-    width: 50%;
-    float: left;
     text-align: center;
     color:black;
     font-size: 18pt;
@@ -69,7 +64,7 @@ nav {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
 }
 
 nav a {
@@ -86,7 +81,7 @@ nav a {
 }
 
 aside {
-    font-size: 10pt;
+    font-size: 12pt;
     grid-area: aside;
     color: black;
     text-align: center;
@@ -94,11 +89,13 @@ aside {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
+    background-color:rgba(255, 255, 255, 0.8);
 }
 
-aside p {
-    color: black;
+aside img {
+    display: block;
+    margin-left: 25%;
+    padding: 10px;
 }
 
 footer {
@@ -110,8 +107,8 @@ footer {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-color:rgba(190, 190, 190, 0.5);
-    font-size: 14pt;
+    background-color:rgba(255, 255, 255, 0.8);
+    font-size: 12pt;
 }
 
 footer a {
