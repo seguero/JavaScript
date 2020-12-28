@@ -76,8 +76,13 @@ nav a {
     font-style: normal;
     color: black;
     display: block;
-    font-size: 22pt;
-    padding: 11px;
+    font-size: 14pt;
+    padding:11px;
+    text-align: center;
+}
+
+.shownav {
+    display: none;
 }
 
 aside {
