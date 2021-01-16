@@ -71,15 +71,16 @@ nav > a {
     transition: transform 2s ease-in-out;
 }
 
-.navoff {
-    opacity: 0;
+#clicked .navoff {
+    opacity: 0%;
 }
 
-#clicked:target.navoff {
-    opacity: 100%;;
+#clicked:target .navoff {
+    opacity: 100%;
     transform: translate(0, 10%);
     transition: transform 1s ease-in-out
 }
+
 
 aside {
     font-size: 10pt;
