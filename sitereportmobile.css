@@ -27,6 +27,16 @@ header {
     font-size: 16pt;
 }
 
+.validation img {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
 main {
     grid-area: main;
     color: black;

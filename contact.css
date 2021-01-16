@@ -4,16 +4,14 @@ html {
 }
 
 body {
-    color:#708090;
     display: grid;
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 5% 65% 25% 5%;
     grid-template-rows: auto;
-    grid-template-areas: "nav header aside"
-                         "nav main aside"
-                         "nav main aside"
-                         "footer footer footer"
+    grid-template-areas: "nav main header aside"
+                         "nav main header aside"
+                         "nav main header aside"
+                         "footer footer footer footer"
 }
-
 
 header {
     grid-area: header;
@@ -39,7 +37,7 @@ header p {
 }
 
 main {
-    height: 790px;
+    height: 865px;
     grid-area: main;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -48,7 +46,6 @@ main {
     background-color:rgba(255, 255, 255, 0.8);
     margin-left: 35px;
     margin-right: 30px;
-    margin-top: 20px;
 }
 
 main h1 {
@@ -63,26 +60,17 @@ main p {
     color: black;
     font-size: 13pt;
 }
-
-.container {
-    margin-left: 5%;
-    float: left;
-    width: 50%;
-}
-
 .container input {
+    margin-left: 20em;
     width: 50%;
     padding: 3px;
     display: block;
 }
 
-.container2 {
-    width: 45%;
-    float: right;
-}
 
 textarea {
-    width: 50%;
+    margin-left: 20em;
+    width: 50.3%;
     height: 350px;
 }
 

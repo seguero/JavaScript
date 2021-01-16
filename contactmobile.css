@@ -7,9 +7,9 @@ body {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     grid-template-rows: auto;
-    grid-template-areas: "nav header aside"
+    grid-template-areas: "nav main aside"
                          "nav main aside"
-                         "nav main aside"
+                         "nav header aside"
                          "footer footer footer"
 }
 
@@ -62,26 +62,17 @@ main p {
     font-size: 13pt;
 }
 
-.container {
-    margin-left: 5%;
-    float: left;
-    width: 50%;
-}
-
 .container input {
     width: 50%;
     padding: 3px;
     display: block;
-}
-
-.container2 {
-    width: 45%;
-    float: right;
+    margin-left: 25%;
 }
 
 textarea {
-    width: 50%;
+    width: 50.3%;
     height: 350px;
+    margin-left: 25%;
 }
 
 nav {
