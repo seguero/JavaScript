@@ -15,7 +15,7 @@ body {
 
 
 header {
-    height: 615px;
+    height: 290px;
     grid-area: header;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -34,6 +34,47 @@ header h1 {
 
 header img {
     padding: 40px;
+}
+
+.homescreen {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: "news unilogo changelog";
+}
+
+.news {
+    grid-area: news;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color:rgba(230, 230, 235, 0.8);
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+.unilogo {
+    grid-area: unilogo;
+}
+
+.changelog {
+    grid-area: changelog;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color:rgba(230, 230, 235, 0.8);
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+}
+
+.homescreen p {
+     font-size: 14pt;
+}
+
+.homescreen h1 {
+    font-size: 21pt;
 }
 
 main {
@@ -96,6 +137,14 @@ aside img {
     display: block;
     margin-left: 25%;
     padding: 10px;
+}
+
+.clock {
+    position: relative;
+    color: black    ;
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 footer {
