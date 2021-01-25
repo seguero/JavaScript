@@ -6,26 +6,144 @@
         <link rel="stylesheet" href="indexmobile.css" media="screen and (max-width: 1000px)" />
         <meta name="viewport" content="width=device-width, initial-scale=1"  />
         <link rel="stylesheet" href="index.css" media="screen and (min-width: 1000px)" />
+        <script src = 'indexjs.js'></script>
     </head>
     <body>
         <header>
+            <div class = "homescreen">
+                <div class = news>
+                    <h1>news & updates</h1>
+                    <p>-- Digital Clock added on sidebar using JavaScript</p>
+                    <p>-- Pictures album replaced with new homescreen</p>
+                    <p>-- University Logo added</p>
+                </div>
+                <div class = "unilogo">
+                    <img src = "uonimage.png" height="200" width="250" alt="">
+                </div>
+                <div class = "changelog">
+                    <h1>GitHub changelog</h1>
+ <!--                   <pre>Commits on Jan 16, 2021
+                        Update indexmobile.css
+                        
+                        @seguero
+                        seguero committed 5 days ago
+                         
+                        v1.0 - validations error free, ss added
+                        
+                        @seguero
+                        seguero committed 5 days ago
+                         
+                        Commits on Dec 28, 2020
+                        v0.9 - all webpages are responsive, small adjusts
+                        
+                        @seguero
+                        seguero committed 24 days ago
+                         
+                        v0.85 - home page improvement, responsive improvement
+                        
+                        @seguero
+                        seguero committed 24 days ago
+                         
+                        v0.8 - first responsive model created, hamburger menu implemented, na… …
+                        
+                        @seguero
+                        seguero committed 24 days ago
+                         
+                        v0.7 - site report page completed, small changes
+                        
+                        @seguero
+                        seguero committed 24 days ago
+                         
+                        Commits on Dec 24, 2020
+                        v0.6 - cv and personal statement page implemented
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                         
+                        Merge pull request #3 from seguero/portofolio-branch …
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                          
+                        v0.55 - contact page finished, mailto function added
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                         
+                        v0.5 - contact page almost finished, other small changes
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                         
+                        Merge pull request #2 from seguero/portofolio-branch …
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                          
+                        v0.4 - portofolio page implemented, small changes
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                         
+                        Merge pull request #1 from seguero/b1 …
+                        
+                        @seguero
+                        seguero committed 28 days ago
+                          
+                        Commits on Dec 20, 2020
+                        v0.35 - content progression, 1 icon added, background changed
+                        
+                        @seguero
+                        seguero committed on Dec 20, 2020
+                         
+                        v0.3 - main structure finished, added links to other pages and icons,… …
+                        
+                        @seguero
+                        seguero committed on Dec 20, 2020
+                         
+                        v0.25 minor changes
+                        
+                        @seguero
+                        seguero committed on Dec 20, 2020
+                         
+                        Commits on Dec 1, 2020
+                        v0.2 - added grid columns, background, main structure
+                        
+                        @seguero
+                        seguero committed on Dec 1, 2020
+                         
+                        v0.1 - Basic
+                        
+                        @seguero
+                        seguero committed on Dec 1, 2020
+                         
+                        first commit
+                        
+                        @seguero
+                        seguero committed on Dec 1, 2020
+                    </pre>
+-->
+                </div>
+            </div>
+<!--
+            </div>
             <div class = album>
-            <img src = "pp3.png" height="440" width="320" alt="">  
-            <img src = "pp2.png" height="440" width="320" alt="">
-            <img src = "pp4.png" height="440" width="320" alt="">
-            <img src = "pp5.png" height="440" width="320" alt="">
-            </div>  
-            <h1>Sergiu Popa, 23</h1>
+                <img src = "pp3.png" height="440" width="320" alt="">  
+                <img src = "pp2.png" height="440" width="320" alt="">
+                <img src = "pp4.png" height="440" width="320" alt="">
+                <img src = "pp5.png" height="440" width="320" alt="">
+            </div>
+-->  
         </header>
         <main>
             <h1>INTRO & PURPOSE</h1>
             <p>
                 I moved in UK 3 years ago and my main goal was to improve, to have a better life.
-                Since then I've been focusing building a better me and in 2020 I've made the decision
-                to apply for a uni course - here I am now developing my own website and practicing my
+                Since then I've been focusing on building a better me and in 2020 I've made the decision
+                to apply for a uni course. Here I am now developing my own website and practicing my
                 Web Design skills at the University of Northampton.
                 The initial purpose of the website was to serve as my first assignment on the Web-Development
-                modul but giving it a secound thought now it will be the collection of my work and
+                module but giving it a second thought now it will be the collection of my work and
                 achievements. Not only that, it's the perfect test ground aswell.
             </p>
         </main>
@@ -59,18 +177,19 @@
                 </div>
         </nav>
         <aside>
-            <p>Social</p>
+            <div id="MyClockDisplay" class="clock" onload="showTime()">
+            </div>
             <a href="https://www.facebook.com/SegaBrock/">
                 <img src="fbicon.png" width="32" height="32" alt="">
             </a> 
             <a href="https://www.instagram.com/sega.sergiu/">
                 <img src="igicon.png" width="32" height="32" alt=""> 
             </a>
-            <a>
-                <img src="emailicon.png" width="32" height="32" alt="">
-            </a>
             <a href="https://github.com/seguero">
                 <img src="githubicon.png" width="32" height="32" alt="">
+            </a>
+            <a href="contact.html">
+                <img src="emailicon.png" width="32" height="32" alt="">
             </a>
         </aside>
         <footer>
